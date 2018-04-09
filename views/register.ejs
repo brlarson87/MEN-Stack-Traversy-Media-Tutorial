@@ -1,0 +1,26 @@
+<% include partials/header %>
+      <h1>Register</h1>
+      <form class="" action="/users/register" method="POST">
+        <div class="form-group">
+          <label>Name:</label>
+          <input class="form-control" type="text" name="name">
+        </div>
+        <div class="form-group">
+          <label>Email:</label>
+          <input class="form-control" type="email" name="email">
+        </div>
+        <div class="form-group">
+          <label>Username:</label>
+          <input class="form-control" type="text" name="username">
+        </div>
+        <div class="form-group">
+          <label>Password:</label>
+          <input class="form-control" type="password" name="password">
+        </div>
+        <div class="form-group">
+          <label>Confirm Password:</label>
+          <input class="form-control" type="password" name="password2">
+        </div>
+        <input class="btn btn-primary" type="submit" value="Submit">
+      </form>
+<% include partials/footer %>
